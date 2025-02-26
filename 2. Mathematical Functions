@@ -1,1 +1,14 @@
 
+def sum_range(cells):
+    """
+    Calculates the sum of a range of cells.
+    
+    :param cells: List of numerical values
+    :return: Sum of the values
+    """
+    return sum(cells)
+
+# Example Usage
+if __name__ == "__main__":
+    cells = [1, 2, 3, 4, 5]
+    print("SUM:", sum_range(cells))  # Output: 15
